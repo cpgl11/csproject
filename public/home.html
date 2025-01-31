@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to our QuizQuest! Test your knowledge and challenge yourself with various quizzes.">
+    <meta name="author" content="Your Name">
+    <meta name="keywords" content="Quiz, Knowledge, Games, Fun, Test, Challenge">
+    <title>QuizQuest - Homepage</title>
+    <link rel="icon" href="https://cdn.glitch.global/09fba144-e16f-449a-9c76-55dec3e8bc9e/QuizQuest%20favicon.png?v=1734987363671" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  </head>
+  
+<body>
+    <header>
+      <div class="logo-container">
+        <img src="https://cdn.glitch.global/329e291d-eaf7-4bca-b4cd-a44aae3aa8d0/QuizQuest.png?v=1734969351413" alt="QuizQuest Logo" class="logo">
+        <a href="home.html" class="home-link">Home</a>
+        <a href="#" class="quiz-link" onclick="takeRandomQuiz()">Take a Quiz</a> <!-- Link to trigger random quiz selection -->
+        <a href="leaderboard.html" class="leaderboard-link">Leaderboard</a>
+      </div>
+      <div class="player-info">
+        <span class="player-name">Player: John Doe</span> 
+        <img src="https://cdn.glitch.global/329e291d-eaf7-4bca-b4cd-a44aae3aa8d0/2c47d5dd5b532f83bb55c4cd6f5bd1ef.jpg?v=1734970233085" alt="Player's Profile Picture" class="player-pfp">
+    </div>
+    </header>
+  
+    <main>
+      <div class="about">
+        <h2>ABOUT</h2>
+        <p>
+        QuizQuest is an interactive trivia game where players can test their knowledge across various categories like history, science, and pop culture. With engaging questions and a timer, users can compete for the highest score while tracking their progress on the leaderboard. Playing on QuizQuest is a fun way to challenge one's mind, with the option to play solo or compete with others.
+        </p>
+        <p>
+        My mission is simple: to bring people together through the excitement of trivia! We believe learning should be fun, and our quizzes are designed to spark curiosity, enhance knowledge, and keep you on your toes.
+        </p>
+      </div>
+      
+      <div class="categories">
+        <h2>Quiz Categories</h2>
+          <div class="carousel-container">
+            <button class="arrow left-arrow">❮</button>
+            <button class="arrow right-arrow">❯</button> 
+            <div class="carousel">
+                <div class="item">
+                  <img src="https://cdn.glitch.global/329e291d-eaf7-4bca-b4cd-a44aae3aa8d0/Science.png?v=1734972989166" alt="Category 1">
+                  <p>Science</p>
+                </div>
+                <div class="item">
+                  <img src="https://cdn.glitch.global/329e291d-eaf7-4bca-b4cd-a44aae3aa8d0/History.jpg?v=1734973112151" alt="Category 2">
+                  <p>History</p>
+                </div>
+                <div class="item">
+                  <img src="https://cdn.glitch.global/329e291d-eaf7-4bca-b4cd-a44aae3aa8d0/Geography.jpg?v=1734973176729" alt="Category 3">
+                  <p>Geography</p>
+                </div>
+                <div class="item">
+                  <img src="https://cdn.glitch.global/329e291d-eaf7-4bca-b4cd-a44aae3aa8d0/Movies.webp?v=1734973347921" alt="Category 4">
+                  <p>Movies and TV Shows</p>
+                </div>
+                <div class="item">
+                  <img src="https://cdn.glitch.global/329e291d-eaf7-4bca-b4cd-a44aae3aa8d0/Music?v=1734973532337" alt="Category 5">
+                  <p>Music</p>
+                </div>
+                <div class="item">
+                  <img src="https://cdn.glitch.global/329e291d-eaf7-4bca-b4cd-a44aae3aa8d0/sports.jpg?v=1734973777015" alt="Category 5">
+                  <p>Sports</p>
+                </div>
+                <div class="item">
+                  <img src="https://cdn.glitch.global/329e291d-eaf7-4bca-b4cd-a44aae3aa8d0/art.webp?v=1734973965950" alt="Category 5">
+                  <p>Art and Literature</p>
+                </div>
+                <div class="item">
+                  <img src="https://cdn.glitch.global/329e291d-eaf7-4bca-b4cd-a44aae3aa8d0/tech.webp?v=1734974162338" alt="Category 5">
+                  <p>Technology</p>
+                </div>
+                <div class="item">
+                  <img src="https://cdn.glitch.global/329e291d-eaf7-4bca-b4cd-a44aae3aa8d0/pop.png?v=1734974395579" alt="Category 5">
+                  <p>Pop Culture</p>
+                </div>
+                <div class="item">
+                  <img src="https://cdn.glitch.global/329e291d-eaf7-4bca-b4cd-a44aae3aa8d0/genknow.png?v=1734974531677" alt="Category 5">
+                  <p>General Knowledge</p>
+                </div>
+                <div class="item">
+                  <img src="https://cdn.glitch.global/329e291d-eaf7-4bca-b4cd-a44aae3aa8d0/video%20games.jpeg?v=1734974612097" alt="Category 5">
+                  <p>Video Games</p>
+                </div>
+          </div>
+      </div>
+    </div>
+
+    </main>
+    <footer>
+        <p>Source: Doe, J. (2024). QuizQuest. Example Publisher.</p>
+    </footer>
+  ` <script src="js/arrows.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,158 @@
+/* General Header Styles */
+header {
+    display: flex;
+    justify-content: space-between; /* Distribute content across the header */
+    align-items: center;
+    padding: 20px;
+    background-color: #efc8fa; /* Light purple */
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+/* Logo Container */
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+/* Logo Style */
+.logo {
+    width: 100px;  /* Adjust size as needed */
+    height: auto;
+    margin-right: 50px; /* Space between logo and links */
+}
+
+/* Link Styles */
+.home-link, .quiz-link, .leaderboard-link {
+    color: black; /* Black color */
+    text-decoration: none;
+    font-size: 2rem; /* Bigger font size */
+    font-weight: bold; /* Bold text */
+    margin-left: 125px; /* Increase space between the links */
+}
+
+/* Hover effect for links */
+.home-link:hover, .quiz-link:hover, .leaderboard-link:hover {
+    color: #00bcd4; /* Hover effect color */
+}
+
+/* Player Info Container */
+.player-info {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* Align player info to the right */
+}
+
+/* Player Name Styles */
+.player-name {
+    color: white;
+    font-size: 2rem; /* Increased font size */
+    font-weight: bold;
+    margin-left: 50px;
+    margin-right: 20px; /* Space between player name and PFP */
+    padding: 5px 15px; /* Add padding around the name */
+    background-color: #8e44ad; /* Darker purple background */
+}
+
+/* Profile Picture Styles */
+.player-pfp {
+    width: 80px;  
+    height: 80px;
+    border-radius: 50%; /* Circular shape */
+    object-fit: cover;
+}
+
+/* General Body Styles */
+body {
+    background-color: #d2a6fa; /* Slightly darker purple for the body */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333; /* Darker text color for contrast */
+}
+
+/* General Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #efc8fa; /* Very light purple for header */
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+/* About Section */
+.about {
+  width: 70%; /* Adjusted width for better centering */
+  margin: 20px auto; /* Center horizontally and add spacing */
+  background-color: #d2a6fa; /* Keep the purple background */
+  padding: 20px; /* Adjusted padding */
+  border-radius: 12px; /* Rounded corners for aesthetics */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow */
+  text-align: center; /* Center text */
+}
+
+
+/* About Title */
+.about h2 {
+    font-size: 1.8rem; /* Smaller font size for the title */
+    margin-bottom: 10px; /* Adjusted margin for less spacing */
+}
+
+/* About Paragraph */
+.about p {
+    font-size: 1.0rem; /* Smaller font size for paragraphs */
+    line-height: 1.4;
+}
+
+/* Categories Section */
+.carousel-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+}
+
+.item {
+    min-width: 20%;
+    flex: 33.33%; /* Show 3 items at once */
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+    transform: translateY(-50%);
+    font-size: 24px;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.left-arrow {
+    left: 10px;
+    transform: translateY(-50%);
+}
+
+.right-arrow {
+    right: 10px;
+    transform: translateY(-50%);
+}
