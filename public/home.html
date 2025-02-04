@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Welcome to our QuizQuest! Test your knowledge and challenge yourself with various quizzes.">
-    <meta name="author" content="Your Name">
+    <meta name="author" content="Clarisse Lazaro">
     <meta name="keywords" content="Quiz, Knowledge, Games, Fun, Test, Challenge">
     <title>QuizQuest - Homepage</title>
     <link rel="icon" href="https://cdn.glitch.global/09fba144-e16f-449a-9c76-55dec3e8bc9e/QuizQuest%20favicon.png?v=1734987363671" type="image/x-icon">
@@ -13,6 +13,7 @@
   </head>
   
 <body>
+    /*navigation bar*/
     <header>
       <div class="logo-container">
         <img src="https://cdn.glitch.global/329e291d-eaf7-4bca-b4cd-a44aae3aa8d0/QuizQuest.png?v=1734969351413" alt="QuizQuest Logo" class="logo">
@@ -25,7 +26,8 @@
         <img src="https://cdn.glitch.global/329e291d-eaf7-4bca-b4cd-a44aae3aa8d0/2c47d5dd5b532f83bb55c4cd6f5bd1ef.jpg?v=1734970233085" alt="Player's Profile Picture" class="player-pfp">
     </div>
     </header>
-  
+
+    /*about the website*/
     <main>
       <div class="about">
         <h2>ABOUT</h2>
@@ -36,7 +38,48 @@
         My mission is simple: to bring people together through the excitement of trivia! We believe learning should be fun, and our quizzes are designed to spark curiosity, enhance knowledge, and keep you on your toes.
         </p>
       </div>
-      
+
+    /*carousel categories*/
+    <div class="container">
+      <h2>Quiz Categories</h2>  
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="item active">
+              <img src="https://cdn.glitch.global/329e291d-eaf7-4bca-b4cd-a44aae3aa8d0/Science.png?v=1734972989166" alt="Category 1" style="width:100%;">
+              <p>Science</p>
+        </div>
+
+        <div class="item">
+            <img src="https://cdn.glitch.global/329e291d-eaf7-4bca-b4cd-a44aae3aa8d0/History.jpg?v=1734973112151" alt="Category 2" style="width:100%;">
+            <p>History</p>
+        </div>
+    
+        <div class="item">
+            <img src="https://cdn.glitch.global/329e291d-eaf7-4bca-b4cd-a44aae3aa8d0/Geography.jpg?v=1734973176729" alt="Category 3" style="width:100%;">
+            <p>Geography</p>
+        </div>
+      </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
       <div class="categories">
         <h2>Quiz Categories</h2>
           <div class="carousel-container">
